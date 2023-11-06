@@ -76,13 +76,13 @@
 						<!-- Projects -->
 						<article id="projects">
 							<h2 class="major">Projects</h2>
+							<a href="#HurricaneProject"><img src="Hurricane/Hurricane.jpg" alt="Hurricane project" width="100%" height="500px"> </a>
 							<p>In this project I analyze some data on hurricanes over the atlantic and try to create a predictive model. It is a bit of SQL & PowerBI with lots pen and paper statistics and a ton of Python</p>
-							<p><a href="#projectSQL">ProjectSQL</a></p>
 						</article>
 						
 						<!-- ProjectSQL -->
-						<article id="projectSQL">
-							<h2 class="major">ProjectSQL</h2>
+						<article id="HurricaneProject">
+							<h2 class="major">Hurricane Project</h2>
 							<p>This is a project where I analyze some hurricane data from the atlantic and try to predict future hurricane numbers. 
 								First I clean and restructure the data using SQL. Then I analyze it using both some pen and paper statistical reasoning and lots of Python code in Jupyter Notebook. 
 								Then, because I want to learn I present the data and some predictions in PowerBi.</p>
@@ -92,7 +92,7 @@
 							<p> Since we are interested only in frequency we clean the data to only retain the data we want to use. Inspecting the data reveals that a single hurricane has a unique ID but it is given several rows representing the same hurricane at different times. We only want one row per hurricane and we are interested in the start time- To do this we should sort by date and then remove every row, except the first, with a specific ID</p>
 							<object data= "Hurricane/Screenshot 2023-10-29 092804.png" width="100%" height="500px">
 							</object>
-							<p>Let's get going in Python and try to predict how many hurricanes we have each year.</p>
+							<p>Let's get going in Python and train a model to predict how many hurricanes we have each year.</p>
 							<object data= "Hurricane/Hurricane.pdf" width="100%" height="500px">
 							</object>
 							<p>Well, that took a turn. Anyway, since I am currently learning PowerBi we will vizualize this stuff using that program.</p>
